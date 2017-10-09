@@ -1,0 +1,58 @@
+body, html{
+  margin:0;
+  padding:0;
+  width: 100%;
+}
+
+header{
+  width: 100%;
+  height: 60px;
+  padding: 10px 0 0 0;
+  background:#4286f4;
+  text-align: center;
+}
+
+header h1{
+  margin:0;
+  padding:0;
+  color: #fcfcfc;
+  font-size: 35px;
+  font-weight: lighter;
+  font-family:monospace;
+
+}
+
+section#main-environment{
+  min-height: 500px;
+  padding: inherit 30px;
+  color: #fcfcfc;
+}
+
+div#contain-box{
+  margin: 100px auto;
+  width: 600px;
+  height: 300px;
+  background-color: #B284BE;
+  position: relative;
+}
+
+div#contain-box h1{
+  margin:0;
+  position:relative;
+  top: 20px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+div#contain-box p{
+  width:70%;
+  margin:0 auto;
+  position:relative;
+  top: 25px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Test Environment</title>
+    <link href="./css/styles.css" rel="stylesheet">
+    <style>
+    .hide-square{
+      animation-name: hide-square;
+      animation-duration: .5s;
+      animation-fill-mode: forwards;
+      animation-timing-function: linear;
+    }
+
+    @keyframes hide-square {
+      0% {opacity: 1;}
+      25% {opacity: 0.75;}
+      50% {opacity: 0.50;}
+      75% {opacity: 0.25;}
+      100% {opacity: 0;}
+    }
+
+    .show-square{
+      animation-name: show-square;
+      animation-duration: .5s;
+      animation-fill-mode: forwards;
+      animation-timing-function: linear;
+    }
+
+    @keyframes show-square {
+      0% {opacity: 0;}
+      25% {opacity: 0.25;}
+      50% {opacity: 0.50;}
+      75% {opacity: 0.75;}
+      100% {opacity: 1;}
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>JavaScript Test Environment</h1>
+    </header>
+    <section id="main-environment">
+      <div id="contain-box">
+        <h1>JavaScript</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </section>
+    <script src="./scripts/uncover/functions.js"></script>
+    <script src="./scripts/uncover/main.js"></script>
+  </body>
+</html>
